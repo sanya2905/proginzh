@@ -1,7 +1,6 @@
 #pragma once
 #include <iostream>
-#include <cctype>
-#include <cstdlib>
+#include <stdlib.h>
 #include <stdio.h>
-using namespace std;
-int Words(char* str);
+#include <ctype.h>
+int fmg(const char *source, int source_length, char divider1, char divider2);
