@@ -1,6 +1,5 @@
 #pragma once
 #include <iostream>
+#include <stdlib.h>
 #include <stdio.h>
-int func(int a);
-int main(int i);
-using namespace std;
+int main();
